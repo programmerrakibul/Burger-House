@@ -1,0 +1,614 @@
+/* Common Css */
+body {
+    color: #3d2514;
+    background: #ffffff;
+    font-family: Montserrat, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #3d2514;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1024px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+/* Header Css */
+#burgerHouseHeader {
+    width: 100%;
+    clear: both;
+    background-color: #ffc045;
+}
+
+#burgerHeaderMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.headerLogo {
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.headerLogo a {
+    width: 130px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.headerLogo a img {
+    max-width: 100%;
+}
+
+.headerMainMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    flex-basis: 47%;
+}
+
+.mainMenuTxt {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.mainMenuTxt img {
+    width: 30px;
+    height: 29px;
+    margin-top: 15px;
+}
+
+.mainMenuTxt p {
+    color: #3d2514;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+.mainMenu ul {
+    list-style: none;
+}
+
+.mainMenu ul li {
+    display: inline;
+    margin: 0px 5px;
+}
+
+.mainMenu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3d2514;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.mainMenu ul li a:hover {
+    color: #bf2222;
+}
+
+/* Header Body Css */
+#headerBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.headerBodyLeft {
+    align-self: center;
+}
+
+.headerBodyLeft p {
+    color: #3d2514;
+    border: 2px dashed #bf2222;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 17px;
+}
+
+.headerBodyLeft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-basis: 34%;
+    height: 325px;
+}
+
+.headerBodyLeft h1 {
+    font-size: 96px;
+}
+
+.headerBodyLeft h3 {
+    font-size: 40px;
+}
+
+.headerBodyRight {
+    flex-basis: 44%;
+    position: relative;
+}
+
+.headerBodyRight img {
+    width: 100%;
+}
+
+.burgerPrice {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 1%;
+    right: 74%;
+    background: #bf2222;
+    padding: 5px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceBorder {
+    border: 2px dashed #ffffff;
+    border-radius: 100%;
+    padding: 10px;
+    width: 67%;
+    height: 67%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.priceBorder h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.priceBorder h3 span {
+    font-size: 15px;
+}
+
+.priceBorder h5 {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+/* popularBurger */
+/* #popularBurger {
+    width: 100%;
+    clear: both;
+    background: #fff;
+}
+
+.popularBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.popular_1 {
+    background-image: url(../img/popular_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.popular_2 {
+    background-image: url(../img/popular_2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.popular_3 {
+    background-image: url(../img/popular_3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+} */
+
+
+/* choose_burger Css */
+#choose_burger {
+    width: 100%;
+    clear: both;
+    background: #fff;
+}
+
+.inner_choose_burger {
+    padding: 45px 0px;
+}
+
+.choose_burger_header {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.choose_burger_header h3 {
+    width: 200px;
+    font-size: 16px;
+    background: #ffc045;
+    padding: 6px;
+    margin: 0px auto;
+}
+
+.choose_burger_header h1 {
+    font-size: 43px;
+    font-weight: 800;
+    margin: 45px 0px;
+}
+
+.choose_burger_header p {
+    font-family: 'Montserrat';
+    margin: 13px 0px;
+}
+
+.choose_burger_down {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    justify-content: space-around;
+}
+
+.choose_burger_item {
+    text-align: center;
+    padding: 10px 0px;
+    flex-basis: 30%;
+    flex-shrink: 1;
+}
+
+.choose_burger_img {
+    max-width: 340px;
+    margin-bottom: 3px;
+}
+
+.choose_burger_img img {
+    width: 100%;
+}
+
+.choose_burger_item h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.choose_burger_item p {
+    margin: 13px 0px;
+}
+
+.choose_burger_item button {
+    color: #ffffff;
+    background: #bf2222;
+    padding: 10px 17px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 22px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.choose_burger_item button:hover {
+    background: #000;
+}
+
+
+/* burger_event Css */
+#burger_event {
+    width: 100%;
+    clear: both;
+    padding: 15px 0px;
+}
+
+.inner_burger_event {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 5px 20px 30px -20px;
+}
+
+.event_left {
+    flex-basis: 45%;
+    align-self: flex-start;
+    padding: 20px 0px;
+}
+
+.event_left h3 {
+    color: #3d3d3d;
+    font-size: 16px;
+}
+
+.event_left h1 {
+    color: #3d2514;
+    font-size: 32px;
+    padding: 5px 0px;
+}
+
+.event_left p {
+    color: #3d3d3d;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.event_right {
+    flex-basis: 45%;
+    padding: 12px 0px;
+}
+
+.event_right img {
+    width: 100%;
+}
+
+a.event_btn {
+    text-decoration: none;
+}
+
+.burger_event_circle {
+    width: 13px;
+    height: 13px;
+    background: #dcdcdc;
+    border-radius: 100%;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 54px;
+    margin-left: 3px;
+}
+
+.event_child {
+    background: #ffc045;
+    margin-left: 0px;
+}
+
+
+/* reservation Css */
+#reservation {
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+.inner_reservation {
+    padding: 30px 0px;
+}
+
+.reservation_header {
+    padding: 7px 0px;
+    text-align: center;
+}
+
+.reservation_header h3 {
+    font-size: 18px;
+    padding: 2px 0px;
+}
+
+.reservation_header h1 {
+    font-size: 35px;
+    font-weight: 800;
+    padding: 6px 0px;
+}
+
+#reservation_form {
+    width: 60%;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 17px;
+    grid-auto-flow: dense;
+    justify-items: center;
+    margin: 0px auto;
+    padding: 55px 0px;
+}
+
+form#reservation_form input {
+    max-width: 379px;
+    width: 90%;
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+form#reservation_form input::placeholder {
+    color: #3d3d3d;
+}
+
+form#reservation_form input[type="submit"] {
+    color: #ffffff;
+    background: #bf2222;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form#reservation_form input[type="submit"]:hover {
+    background: #3d2514;
+}
+
+.reservation_child {
+    position: absolute;
+}
+
+.burger_child {
+    max-width: 160px;
+    top: 11%;
+    left: -6%;
+}
+
+.bottle_child {
+    max-width: 60px;
+    top: 34%;
+    left: 14%;
+    transform: rotate(-1.40deg);
+}
+
+.plate_child {
+    max-width: 300px;
+    top: 40%;
+    right: -9%;
+    transform: rotate(74.30deg);
+}
+
+.reservation_child img {
+    width: 100%;
+}
+
+
+/* burger_footer Css */
+#burger_footer {
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+}
+
+.inner_footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/footer_img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.left_footer {
+    flex-basis: 55%;
+    align-self: center;
+}
+
+.right_footer {
+    flex-basis: 37%;
+}
+
+.left_footer img {
+    max-width: 215px;
+    margin-bottom: 20px;
+}
+
+.left_footer p {
+    color: #fff;
+    font-size: 10px;
+    max-width: 63%;
+}
+
+.left_footer span {
+    color: #fff;
+    font-size: 9px;
+    margin-top: 90px;
+    display: block;
+}
+
+.right_footer {
+    flex-basis: 35%;
+    align-self: center;
+}
+
+.footer_location {
+    max-width: 90%;
+    padding: 15px 0px;
+    margin-top: 80px;
+}
+
+.footer_location img {
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+
+.footer_location p {
+    margin: 0px;
+    margin-left: 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_envelope {
+    max-width: 90%;
+    padding: 15px 0px;
+}
+
+.footer_envelope img {
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+
+.footer_envelope p {
+    margin: 0px;
+    margin-left: 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_social {
+
+    width: 100%;
+    float: right;
+    padding: 10px 0px;
+    margin-top: 80px;
+}
+
+.footer_social ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.footer_social ul li {
+    margin: 0px 3px;
+}
+
+.footer_social ul li a {
+    text-decoration: none;
+    display: block;
+}
+
+.footer_social ul li a i {
+    color: #000;
+    background: #fff;
+    padding: 5px;
+    border-radius: 100%;
+}
